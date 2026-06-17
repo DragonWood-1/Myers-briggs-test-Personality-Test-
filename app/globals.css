@@ -149,7 +149,7 @@ a.card:hover h3 { color: var(--brand-ink); }
 
 /* Hero */
 .hero-band {
-  background: linear-gradient(180deg, var(--bg-tint) 0%, #ffffff 100%);
+  background: #ffffff;
   border-bottom: 1px solid var(--border);
 }
 .hero-band .hero { padding-top: 72px; }

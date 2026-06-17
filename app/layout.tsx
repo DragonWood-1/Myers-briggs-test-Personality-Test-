@@ -33,6 +33,14 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8788099801042098"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body>
         <a href="#main" className="visually-hidden">Skip to content</a>
         <Header />
