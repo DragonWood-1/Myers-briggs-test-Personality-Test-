@@ -27,7 +27,10 @@ export default function Page() {
         const color = TYPES[codes[0]].groupColor;
         return (
           <section className="section" key={group}>
-            <h2 style={{ color }}>{group}s</h2>
+            <h2 style={{ display: "flex", alignItems: "center", gap: 10 }}>
+              <span style={{ width: 12, height: 12, borderRadius: 3, background: color, display: "inline-block" }} />
+              {group}s
+            </h2>
             <div className="grid cols-4">
               {codes.map((code) => {
                 const t = TYPES[code];

@@ -5,20 +5,23 @@ import { ASSESSMENTS } from "@/data/assessments";
 export default function Home() {
   return (
     <>
-      <section className="hero container">
-        <h1>Discover Your Personality Type</h1>
-        <p className="lead">
-          Take the free Myers-Briggs–style personality test and unlock in-depth insights into your
-          strengths, ideal careers, relationships and how your mind works — in about 5 minutes.
-        </p>
-        <div className="hero-cta">
-          <Link className="btn" href="/myers-briggs-test">Take the Free Test →</Link>
-          <Link className="btn secondary" href="/personality-types">Explore the 16 Types</Link>
-        </div>
-        <p className="small muted" style={{ marginTop: 14 }}>
-          100% free · No sign-up · Private — results never leave your browser
-        </p>
-      </section>
+      <div className="hero-band">
+        <section className="hero container">
+          <p className="eyebrow">Free MBTI &amp; Personality Test</p>
+          <h1>Discover Your Personality Type</h1>
+          <p className="lead">
+            Take the free Myers-Briggs–style personality test and unlock in-depth insights into your
+            strengths, ideal careers, relationships and how your mind works — in about 5 minutes.
+          </p>
+          <div className="hero-cta">
+            <Link className="btn" href="/myers-briggs-test">Take the Free Test →</Link>
+            <Link className="btn secondary" href="/personality-types">Explore the 16 Types</Link>
+          </div>
+          <p className="small muted" style={{ marginTop: 16 }}>
+            100% free · No sign-up · Private — results never leave your browser
+          </p>
+        </section>
+      </div>
 
       <section className="section container">
         <h2>The 16 Personality Types</h2>
