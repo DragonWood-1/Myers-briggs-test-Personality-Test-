@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div>
-            <h4>TypeFinder</h4>
+            <h4>PersonalityTypeCheck.com</h4>
             <p className="small muted">
               Free, science-informed personality tests and in-depth type profiles to help you
               understand yourself, your career and your relationships.
@@ -40,7 +40,7 @@ export default function Footer() {
         </div>
         <hr className="divider" />
         <p className="small muted center">
-          © {new Date().getFullYear()} TypeFinder. For self-discovery and entertainment. Not a
+          © {new Date().getFullYear()} PersonalityTypeCheck.com. For self-discovery and entertainment. Not a
           substitute for professional psychological advice. No personal data is collected — results
           stay in your browser.
         </p>

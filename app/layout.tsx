@@ -3,15 +3,15 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const SITE_NAME = "TypeFinder";
+const SITE_NAME = "PersonalityTypeCheck.com";
 const SITE_DESC =
   "Free Myers-Briggs (MBTI) personality test plus in-depth profiles of all 16 personality types, career matches, relationship compatibility and cognitive functions.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://typefinder.example"),
+  metadataBase: new URL("https://personalitytypecheck.com"),
   title: {
-    default: "Free Myers-Briggs (MBTI) Personality Test | TypeFinder",
-    template: "%s | TypeFinder",
+    default: "Free Myers-Briggs (MBTI) Personality Test | PersonalityTypeCheck.com",
+    template: "%s | PersonalityTypeCheck.com",
   },
   description: SITE_DESC,
   applicationName: SITE_NAME,

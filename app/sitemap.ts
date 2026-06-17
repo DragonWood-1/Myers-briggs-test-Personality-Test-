@@ -4,7 +4,7 @@ import { CAREER_VARIANTS } from "@/data/careers";
 import { pairSlug } from "@/data/compatibility";
 import { ASSESSMENTS } from "@/data/assessments";
 
-const BASE = "https://typefinder.example";
+const BASE = "https://personalitytypecheck.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

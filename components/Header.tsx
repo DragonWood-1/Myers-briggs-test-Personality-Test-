@@ -18,8 +18,8 @@ export default function Header() {
     <header className="site-header">
       <div className="container nav">
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
-          <span className="logo">16</span>
-          <span>TypeFinder</span>
+          <span className="logo">PT</span>
+          <span>PersonalityTypeCheck.com</span>
         </Link>
         <button
           className="nav-toggle"

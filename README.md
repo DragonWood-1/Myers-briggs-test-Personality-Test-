@@ -1,4 +1,4 @@
-# TypeFinder — Myers-Briggs & Personality Test Platform
+# PersonalityTypeCheck.com — Myers-Briggs & Personality Test Platform
 
 A free, mobile-first, statically-generated personality platform built with **Next.js (App Router)** and **TypeScript**. Everything is generated from structured data, so the site scales to hundreds of SEO pages with no per-page maintenance.
 
